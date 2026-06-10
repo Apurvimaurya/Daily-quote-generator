@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+.home{
+    height: 100vh;
+    padding: 10%;
+    text-align: center;
+    overflow-y: hidden;
+    background-image: url(images/homebg.png);
+}
+.homehead{
+
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 15vh;
+    font-family: 'Allison',cursive;
+    text-shadow:-10px 10px 15px white;
+
+}
+.btn{
+    box-sizing: border-box;
+    border-radius: 40px;
+    border-color: pink;
+    border-style: hidden;
+    background-color: rgb(250, 250, 192);
+    padding: 20px 30px;
+    font-size: 5vh;
+    text-decoration: none;
+    cursor:pointer;
+    
+}
+.btn:hover{
+    background-color: pink;
+    box-shadow: -7px 7px 15px pink;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    gap: 30vw;
+    justify-content: center;
+    padding: 3vh;
+}
+
+.text{
+    justify-content: center;
+    padding: 20vh 15vw;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 12vh;
+    font-family: 'Allison',cursive;
+    text-shadow:-10px 10px 15px white;
+   
+    max-width:900px;
+    margin:auto;
+}
+
+.quote{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0px;
+    padding:0px;
+}

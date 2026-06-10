@@ -15,8 +15,19 @@ def generate():
                     randquote= line.strip()
     if randquote is None:
         randquote = "No quotes found."
+    images = [
+    "images/background/bg1.jpg",
+    "images/background/bg2.jpg",
+    "images/background/bg3.jpg",
+    "images/background/bg4.jpg",
+    "images/background/bg5.jpg"
+     ]
+
+    randimg = random.choice(images)
     return render_template("quotes.html",
-    quote=randquote)
+        quote=randquote, image=randimg)
 
 if __name__=="__main__":
     app.run(debug=True)
+
+    
